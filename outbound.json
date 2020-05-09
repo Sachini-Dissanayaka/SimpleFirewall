@@ -1,0 +1,2114 @@
+[
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:00.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "0.000000000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "50",
+          "frame.cap_len": "50",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (28 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "192.168.3.6",
+          "ip.addr": "192.168.3.6",
+          "ip.dst_host": "192.168.3.6",
+          "ip.host": "192.168.3.6"
+        },
+        "tcp": {
+          "tcp.srcport": "8246",
+          "tcp.dstport": "3952",
+          "tcp.port": "8246",
+          "tcp.port": "3952"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:01.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "1.000000000",
+          "frame.number": "2",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (20 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "196.168.34.60",
+          "ip.addr": "196.168.34.60",
+          "ip.dst_host": "196.168.34.60",
+          "ip.host": "196.168.34.60"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:02.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "2.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "2.000000000",
+          "frame.number": "3",
+          "frame.len": "50",
+          "frame.cap_len": "50",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (28 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.dst_host": "192.168.34.60",
+          "ip.host": "192.168.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "13587",
+          "tcp.dstport": "4546",
+          "tcp.port": "13587",
+          "tcp.port": "4546"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:03.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "3.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "3.000000000",
+          "frame.number": "4",
+          "frame.len": "50",
+          "frame.cap_len": "50",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (28 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "192.171.36.60",
+          "ip.addr": "192.171.36.60",
+          "ip.dst_host": "192.171.36.60",
+          "ip.host": "192.171.36.60"
+        },
+        "tcp": {
+          "tcp.srcport": "17076",
+          "tcp.dstport": "452",
+          "tcp.port": "17076",
+          "tcp.port": "452"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:04.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "4.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "4.000000000",
+          "frame.number": "5",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (24 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "198.168.34.60",
+          "ip.addr": "198.168.34.60",
+          "ip.dst_host": "198.168.34.60",
+          "ip.host": "198.168.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "18467",
+          "tcp.dstport": "14628",
+          "tcp.port": "18467",
+          "tcp.port": "14628"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:05.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "5.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "5.000000000",
+          "frame.number": "6",
+          "frame.len": "48",
+          "frame.cap_len": "48",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (26 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "198.168.34.4",
+          "ip.addr": "198.168.34.4",
+          "ip.dst_host": "198.168.34.4",
+          "ip.host": "198.168.34.4"
+        },
+        "tcp": {
+          "tcp.srcport": "9133",
+          "tcp.dstport": "53365",
+          "tcp.port": "9133",
+          "tcp.port": "53365"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:06.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "6.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "6.000000000",
+          "frame.number": "7",
+          "frame.len": "47",
+          "frame.cap_len": "47",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (25 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "192.170.34.60",
+          "ip.addr": "192.170.34.60",
+          "ip.dst_host": "192.170.34.60",
+          "ip.host": "192.170.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "8060",
+          "tcp.dstport": "38750",
+          "tcp.port": "8060",
+          "tcp.port": "38750"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:07.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "7.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "7.000000000",
+          "frame.number": "8",
+          "frame.len": "48",
+          "frame.cap_len": "48",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (26 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "198.168.34.60",
+          "ip.addr": "198.168.34.60",
+          "ip.dst_host": "198.168.34.60",
+          "ip.host": "198.168.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "2400",
+          "tcp.dstport": "22413",
+          "tcp.port": "2400",
+          "tcp.port": "22413"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  1, 1970 05:30:00.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "0.000000000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "37",
+          "frame.cap_len": "37",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp",
+          "frame.coloring_rule.name": "Broadcast",
+          "frame.coloring_rule.string": "eth[0] & 1"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "01:01:01:01:01:01",
+          "eth.src_tree": {
+            "_ws.expert": {
+              "eth.src_not_group": "",
+              "_ws.expert.message": "Source MAC must not be a group address: IEEE 802.3-2002, Section 3.2.3(b)",
+              "_ws.expert.severity": "6291456",
+              "_ws.expert.group": "150994944"
+            },
+            "eth.src_resolved": "Private_01:01:01",
+            "eth.src.oui": "65793",
+            "eth.addr": "01:01:01:01:01:01",
+            "eth.addr_resolved": "Private_01:01:01",
+            "eth.addr.oui": "65793",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (23 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x0000c59e",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "255",
+          "ip.proto": "17",
+          "ip.checksum": "0x0000d7e0",
+          "ip.checksum.status": "2",
+          "ip.src": "208.21.2.184",
+          "ip.addr": "208.21.2.184",
+          "ip.src_host": "208.21.2.184",
+          "ip.host": "208.21.2.184",
+          "ip.dst": "10.1.1.99",
+          "ip.addr": "10.1.1.99",
+          "ip.dst_host": "10.1.1.99",
+          "ip.host": "10.1.1.99"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  1, 1970 05:30:02.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "2.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "2.000000000",
+          "frame.number": "3",
+          "frame.len": "47",
+          "frame.cap_len": "47",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "01:01:01:01:01:01",
+          "eth.src_tree": {
+            "_ws.expert": {
+              "eth.src_not_group": "",
+              "_ws.expert.message": "Source MAC must not be a group address: IEEE 802.3-2002, Section 3.2.3(b)",
+              "_ws.expert.severity": "6291456",
+              "_ws.expert.group": "150994944"
+            },
+            "eth.src_resolved": "Private_01:01:01",
+            "eth.src.oui": "65793",
+            "eth.addr": "01:01:01:01:01:01",
+            "eth.addr_resolved": "Private_01:01:01",
+            "eth.addr.oui": "65793",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (33 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x0000c59e",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "255",
+          "ip.proto": "17",
+          "ip.checksum": "0x0000d7e0",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "10.1.1.99",
+          "ip.addr": "10.1.1.99",
+          "ip.dst_host": "10.1.1.99",
+          "ip.host": "10.1.1.99"
+        },
+        "udp": {
+          "udp.srcport": "5325",
+          "udp.dstport": "39222",
+          "udp.port": "5325",
+          "udp.port": "39222",
+          "udp.length": "8561",
+          "udp.length_tree": {
+            "_ws.expert": {
+              "udp.length.bad": "",
+              "_ws.expert.message": "Bad length value 8561 > IP payload length",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "117440512"
+            },
+            "_ws.malformed": "Malformed Packet"
+          },
+          "udp.checksum": "0x0000304f",
+          "udp.checksum.status": "2",
+          "udp.stream": "0",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          }
+        },
+        "data": {
+          "data.data": "0a:94:c2:83:f6",
+          "data.len": "5"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  1, 1970 05:30:03.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "3.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "3.000000000",
+          "frame.number": "4",
+          "frame.len": "50",
+          "frame.cap_len": "50",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:data",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "01:01:01:01:01:01",
+          "eth.src_tree": {
+            "_ws.expert": {
+              "eth.src_not_group": "",
+              "_ws.expert.message": "Source MAC must not be a group address: IEEE 802.3-2002, Section 3.2.3(b)",
+              "_ws.expert.severity": "6291456",
+              "_ws.expert.group": "150994944"
+            },
+            "eth.src_resolved": "Private_01:01:01",
+            "eth.src.oui": "65793",
+            "eth.addr": "01:01:01:01:01:01",
+            "eth.addr_resolved": "Private_01:01:01",
+            "eth.addr.oui": "65793",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (36 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x0000c59e",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "255",
+          "ip.proto": "17",
+          "ip.checksum": "0x0000d7e0",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.dst_host": "192.168.34.60",
+          "ip.host": "192.168.34.60"
+        },
+        "udp": {
+          "udp.srcport": "3207",
+          "udp.dstport": "61992",
+          "udp.port": "3207",
+          "udp.port": "61992",
+          "udp.length": "29205",
+          "udp.length_tree": {
+            "_ws.expert": {
+              "udp.length.bad": "",
+              "_ws.expert.message": "Bad length value 29205 > IP payload length",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "117440512"
+            },
+            "_ws.malformed": "Malformed Packet"
+          },
+          "udp.checksum": "0x00003168",
+          "udp.checksum.status": "2",
+          "udp.stream": "1",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          }
+        },
+        "data": {
+          "data.data": "ae:61:b0:d3:a7:71:45:4d",
+          "data.len": "8"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:09.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "9.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "9.000000000",
+          "frame.number": "10",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (24 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "192.168.39.10",
+          "ip.addr": "192.168.39.10",
+          "ip.dst_host": "192.168.39.10",
+          "ip.host": "192.168.39.10"
+        },
+        "tcp": {
+          "tcp.srcport": "705",
+          "tcp.dstport": "44181",
+          "tcp.port": "705",
+          "tcp.port": "44181"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:10.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "10.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "10.000000000",
+          "frame.number": "11",
+          "frame.len": "49",
+          "frame.cap_len": "49",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (27 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "198.168.34.60",
+          "ip.addr": "198.168.34.60",
+          "ip.dst_host": "198.168.34.60",
+          "ip.host": "198.168.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "625",
+          "tcp.dstport": "56019",
+          "tcp.port": "625",
+          "tcp.port": "56019"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:11.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "11.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "11.000000000",
+          "frame.number": "12",
+          "frame.len": "46",
+          "frame.cap_len": "46",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (24 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "192.169.34.60",
+          "ip.addr": "192.169.34.60",
+          "ip.dst_host": "192.169.34.60",
+          "ip.host": "192.169.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "62507",
+          "tcp.dstport": "24167",
+          "tcp.port": "62507",
+          "tcp.port": "24167"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  1, 1970 05:30:04.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "4.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "4.000000000",
+          "frame.number": "5",
+          "frame.len": "43",
+          "frame.cap_len": "43",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp:rtcp",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "01:01:01:01:01:01",
+          "eth.src_tree": {
+            "_ws.expert": {
+              "eth.src_not_group": "",
+              "_ws.expert.message": "Source MAC must not be a group address: IEEE 802.3-2002, Section 3.2.3(b)",
+              "_ws.expert.severity": "6291456",
+              "_ws.expert.group": "150994944"
+            },
+            "eth.src_resolved": "Private_01:01:01",
+            "eth.src.oui": "65793",
+            "eth.addr": "01:01:01:01:01:01",
+            "eth.addr_resolved": "Private_01:01:01",
+            "eth.addr.oui": "65793",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (29 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x0000c59e",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "255",
+          "ip.proto": "17",
+          "ip.checksum": "0x0000d7e0",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "10.1.1.99",
+          "ip.addr": "10.1.1.99",
+          "ip.dst_host": "10.1.1.99",
+          "ip.host": "10.1.1.99"
+        },
+        "udp": {
+          "udp.srcport": "6658",
+          "udp.dstport": "33249",
+          "udp.port": "6658",
+          "udp.port": "33249",
+          "udp.length": "58278",
+          "udp.length_tree": {
+            "_ws.expert": {
+              "udp.length.bad": "",
+              "_ws.expert.message": "Bad length value 58278 > IP payload length",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "117440512"
+            },
+            "_ws.malformed": "Malformed Packet"
+          },
+          "udp.checksum": "0x0000687a",
+          "udp.checksum.status": "2",
+          "udp.stream": "2",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          }
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "1",
+          "frame.time": "Jan  1, 1970 05:30:05.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "5.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "5.000000000",
+          "frame.number": "6",
+          "frame.len": "39",
+          "frame.cap_len": "39",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:udp",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "eth": {
+          "eth.dst": "ff:ff:ff:ff:ff:ff",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "Broadcast",
+            "eth.dst.oui": "16777215",
+            "eth.addr": "ff:ff:ff:ff:ff:ff",
+            "eth.addr_resolved": "Broadcast",
+            "eth.addr.oui": "16777215",
+            "eth.dst.lg": "1",
+            "eth.lg": "1",
+            "eth.dst.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.src": "01:01:01:01:01:01",
+          "eth.src_tree": {
+            "_ws.expert": {
+              "eth.src_not_group": "",
+              "_ws.expert.message": "Source MAC must not be a group address: IEEE 802.3-2002, Section 3.2.3(b)",
+              "_ws.expert.severity": "6291456",
+              "_ws.expert.group": "150994944"
+            },
+            "eth.src_resolved": "Private_01:01:01",
+            "eth.src.oui": "65793",
+            "eth.addr": "01:01:01:01:01:01",
+            "eth.addr_resolved": "Private_01:01:01",
+            "eth.addr.oui": "65793",
+            "eth.src.lg": "0",
+            "eth.lg": "0",
+            "eth.src.ig": "1",
+            "eth.ig": "1"
+          },
+          "eth.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "60",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (25 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x0000c59e",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "255",
+          "ip.proto": "17",
+          "ip.checksum": "0x0000d7e0",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "200.168.34.60",
+          "ip.addr": "200.168.34.60",
+          "ip.dst_host": "200.168.34.60",
+          "ip.host": "200.168.34.60"
+        },
+        "udp": {
+          "udp.srcport": "3496",
+          "udp.dstport": "60995",
+          "udp.port": "3496",
+          "udp.port": "60995"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:12.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "12.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "12.000000000",
+          "frame.number": "13",
+          "frame.len": "48",
+          "frame.cap_len": "48",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (26 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "200.168.34.60",
+          "ip.addr": "200.168.34.60",
+          "ip.dst_host": "200.168.34.60",
+          "ip.host": "200.168.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "35056",
+          "tcp.dstport": "0",
+          "tcp.port": "35056",
+          "tcp.port": "0"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-1970-01-01",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "2",
+          "frame.time": "Jan  1, 1970 05:30:13.000000000 India Standard Time",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "13.000000000",
+          "frame.time_delta": "1.000000000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "13.000000000",
+          "frame.number": "14",
+          "frame.len": "50",
+          "frame.cap_len": "50",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "tr:llc:ip:tcp",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "tr": {
+          "tr.ac": "0x00000010",
+          "tr.ac_tree": {
+            "tr.priority": "0",
+            "tr.frame": "1",
+            "tr.monitor_cnt": "0",
+            "tr.priority_reservation": "0"
+          },
+          "tr.fc": "0x00000040",
+          "tr.fc_tree": {
+            "tr.frame_type": "1",
+            "tr.frame_pcf": "0"
+          },
+          "tr.dst": "68:00:19:69:95:8b",
+          "tr.src": "00:01:fa:68:c4:67",
+          "tr.addr": "68:00:19:69:95:8b",
+          "tr.addr": "00:01:fa:68:c4:67",
+          "tr.sr": "0",
+          "tr.src": "00:01:fa:68:c4:67"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00000800"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "40",
+          "ip.len_tree": {
+            "_ws.expert": {
+              "ip.bogus_ip_length": "",
+              "_ws.expert.message": "IPv4 total length exceeds packet length (28 bytes)",
+              "_ws.expert.severity": "8388608",
+              "_ws.expert.group": "150994944"
+            }
+          },
+          "ip.id": "0x00000b0b",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "32",
+          "ip.proto": "6",
+          "ip.checksum": "0x00008537",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.34.60",
+          "ip.addr": "192.168.34.60",
+          "ip.src_host": "192.168.34.60",
+          "ip.host": "192.168.34.60",
+          "ip.dst": "200.168.34.60",
+          "ip.addr": "200.168.34.60",
+          "ip.dst_host": "200.168.34.60",
+          "ip.host": "200.168.34.60"
+        },
+        "tcp": {
+          "tcp.srcport": "4997",
+          "tcp.dstport": "28674",
+          "tcp.port": "4997",
+          "tcp.port": "28674"
+        },
+        "_ws.malformed": {
+          "_ws.expert": {
+            "_ws.malformed.expert": "",
+            "_ws.expert.message": "Malformed Packet (Exception occurred)",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "117440512"
+          },
+          "_ws.malformed": "Malformed Packet"
+        }
+      }
+    }
+  }
+]

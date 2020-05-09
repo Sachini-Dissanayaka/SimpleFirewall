@@ -1,0 +1,49 @@
+{
+    "filteringRules": [
+        {
+            "ruleNo": "1",
+            "sourceIpAdd":"192.168.34.60",
+            "destinationIpAdd":"192.168.34.60",
+            "sourcePort":"*",
+            "destinationPort":"*",
+            "protocolType":"*",
+            "action":"deny"
+        },
+        {
+            "ruleNo": "2",
+            "sourceIpAdd":"*",
+            "destinationIpAdd":"192.168.34.60",
+            "sourcePort":">1023",
+            "destinationPort":">10000",
+            "protocolType":"tcp",
+            "action":"permit"
+        },
+        {
+            "ruleNo": "3",
+            "sourceIpAdd":"*",
+            "destinationIpAdd":"192.168.34.60",
+            "sourcePort":">1023",
+            "destinationPort":">5000",
+            "protocolType":"udp",
+            "action":"permit"
+        },
+        {
+            "ruleNo": "4",
+            "sourceIpAdd":"192.168.34.60",
+            "destinationIpAdd":"*",
+            "sourcePort":"<10000",
+            "destinationPort":">1023",
+            "protocolType":"*",
+            "action":"permit"
+        },
+        {
+            "ruleNo": "5",
+            "sourceIpAdd":"*",
+            "destinationIpAdd":"*",
+            "sourcePort":"*",
+            "destinationPort":"*",
+            "protocolType":"*",
+            "action":"deny"
+        }
+    ]
+}
